@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme {
+  --font-libre: 'Libre Caslon Text', sans-serif;
+  --font-jakarta-sans: 'Plus Jakarta Sans', san-serif;
+  --color-primary: #008751;
+  --color-secondary: #C5A059;
+  --color-tertiary: #BD555A;
+  --color-neutral: #F9F8F3;
+}
