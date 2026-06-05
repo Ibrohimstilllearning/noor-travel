@@ -8,10 +8,10 @@ function LinkNav() {
                     <Link to="/package" className="hover:text-primary">Package</Link>
                 </li>
                 <li>
-                    <a href="#about" className="hover:text-primary">About Us</a>
+                    <a href="/about-us" className="hover:text-primary">About Us</a>
                 </li>
                 <li>
-                    <a href="#contact" className="hover:text-primary">Contact
+                    <a href="/contact" className="hover:text-primary">Contact
                     </a>
                 </li>
             </ul>
