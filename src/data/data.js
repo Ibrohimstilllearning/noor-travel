@@ -2,10 +2,18 @@ import FirstCardImg from "../assets/kabah.png"
 import SecondCardImg from "../assets/hotel-nabawi.png"
 import ThirdCardImg from "../assets/nabawi-night.png"
 
+//Icon
+import { FaEye, FaMedal} from "react-icons/fa"
+import { RiFlag2Line } from "react-icons/ri"
+
+
 // Gambar fasilitas
 import PlaneImg from "../assets/plane-seat.png"
 import HotelImg from "../assets/haramain-hotel.png"
 import TrainImg from "../assets/haramain-railway.png"
+import SujoodImg from "../assets/sujood.png"
+import { MdShield, MdVerified } from "react-icons/md"
+import { HiUserGroup } from "react-icons/hi"
 
 export const packagesData = [
     {
@@ -187,3 +195,60 @@ export const packagesData = [
         quote: "Ramadhan di Tanah Suci, pengalaman yang mengubah hidup.",
     },
 ]
+
+export const aboutData = [
+    {
+        //Hero
+        badge: "Sejarah Kami",
+        heroTitle: "Membimbing Perjalanan Suci dengan Kejernihan Hati",
+        heroDescription: "Berawal dari kerinduan mendalam akan Baitullah, Umrah Noble didirikan untuk menjadi sahabat terpercaya bagi para jamaah. Kami percaya bahwa setiap langkah di tanah suci harus bebas dari kekhawatiran logistik, memungkinkan Anda fokus pada ibadah.",
+        heroImage: SujoodImg,
+
+        //Visi & Misi
+        card : [
+            {
+                id: 1,
+                title: "Visi",
+                type: "text",
+                description: "Menjadi biro perjalanan umrah paling terpercaya di Indonesia yang menghadirkan pengalaman spiritual yang elegan, nyaman, dan transformatif bagi setiap jamaah.",
+                icon: FaEye
+            }, {
+                id: 2,
+                title: "Misi",
+                type: "list",
+                list: [
+                    "Menyediakan pelayanan prima dengan standar hospitality terbaik.",
+                    "Membimbing ibadah sesuai sunnah dengan pembimbing bersertifikat.",
+                    "Menjamin transparansi biaya dan kepastian jadwal keberangkatan."
+                ],
+                icon: RiFlag2Line
+            }
+        ],
+
+        certifications : {
+            title: "Izin Resmi & Sertifikasi",
+            description: "Kami beroperasi secara legal dan terdaftar resmi, memberikan Anda \nketenangan pikiran sebelum memulai perjalanan suci.",
+            items : [
+                {
+                    id: 1,
+                    label: "Kemenag RI",
+                    sublabel: "PPIU No. 123/2023",
+                    icon: MdVerified,
+                },
+                {
+                    id: 2,
+                    label: "Anggota HIMPUH",
+                    sublabel: "",
+                    icon: HiUserGroup,
+                },
+                {
+                    id: 3,
+                    label: "Terakreditasi A",
+                    sublabel: "KAN",
+                    icon: MdShield,
+                },
+            ]
+        }
+    }
+];
+

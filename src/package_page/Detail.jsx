@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import {packagesData} from "../data/packages"
+import {packagesData} from "../data/data"
 import RegulerLayout from "./reguler/RegulerLayout"
 import PremiumLayout from "./premium/PremiumLayout"
 export default function Detail () {
