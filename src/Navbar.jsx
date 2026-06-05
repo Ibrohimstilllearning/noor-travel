@@ -24,7 +24,7 @@ function NavButton() {
 }
 
 function LogoNav() {
-    return <h1 className=" items-center flex font-libre ml-4 font-bold text-xl text-primary">
+    return <h1 className=" items-center flex  font-libre ml-4 text-2xl text-primary">
         Noor Madinah
     </h1>
 }
